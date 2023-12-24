@@ -1,0 +1,48 @@
+.post-img
+{
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.post-img img
+{
+    width: 100%;
+}
+.blog-post-content
+{
+    overflow: visible;
+    font-size: 1.25rem;
+}
+.blog-post-content h1
+{
+    text-align:center;
+}
+.row
+{
+    display: flex;
+}
+.home-article
+{
+    flex-direction: column;
+}
+.author-info div
+{
+    padding: 4px 0;
+    font-family: var(--font2);
+}
+.blog-post-meta 
+{
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.social
+{
+    padding-right: 60px;
+}
+svg
+{
+    padding-right: 13px;
+    padding-top: 4px;
+}

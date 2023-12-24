@@ -1,0 +1,16 @@
+.contact-content
+{
+    height: 80vh;
+    position: relative;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.contact-content::after {
+    position: absolute;
+    top: 0;
+    content: "";
+    background-image: url(../img/4.jpg);
+    opacity: 0.15;
+    height: inherit;
+    width: 100%;
+  }

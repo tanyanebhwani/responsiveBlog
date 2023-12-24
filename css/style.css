@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0; /*removes default spacing of nav
+     and content aand footer to make content take up whole page*/
+}
+.navigation {
+  /*background-color: var(--main-bg-color);*/
+  margin-top: 23px;
+  padding: 25px;
+  font-family: var(--font1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  height: 100%;
+  display: flex;
+  position: relative;
+  padding-top: 20px;
+}
+.footer {
+  height: 55px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.nav-left {
+  font-size: 35px;
+  display: flex;
+}
+.nav-left span {
+  padding-top: 10px;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+}
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.content-left {
+  font-family: var(--font1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  z-index: 1;
+}
+.content-left h1 {
+  font-size: 1.5rem;
+}
+.content-left p {
+  font-size: 1rem;
+}
+.home-articles h2 {
+  font-size: 1.5 rem;
+}
+.content-right img {
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 450px;
+}
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:hover {
+  color: white;
+  background: var(--main-bg-color);
+}
+.home-articles {
+  background-color: red/*rgb(248, 239, 239, 0.5);*/;
+  padding-top: 12px;
+  position: relative;
+}
+.year-box {
+  display: flex;
+  position: absolute;
+  top: 3vw;
+  right: 10vw;
+  width: 8vw;
+  height: 2vw;
+}
+.y-box{
+  padding: 0 15px;
+  display: flex;
+}
+#year-head{
+  padding-right: 0px;
+  padding-top: 3.5px;
+}
+.y-box h6
+{
+  padding-top: 7.5px;
+}
+.home-article img {
+  width: 300px;
+}
+.home-article a {
+  text-decoration: none;
+  color: black;
+}
+.home-article {
+  display: flex;
+  padding: 50px;
+}
+.home-article-content {
+  align-self: center;
+  padding: 0 25px;
+  font-size: 1rem;
+}
+.content::after {
+  position: absolute;
+  content: "";
+  background-image: url(../img/4.jpg);
+  background-size: cover;
+  opacity: 0.15;
+  height: inherit;
+  width: 100%;
+}

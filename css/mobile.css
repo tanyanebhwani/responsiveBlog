@@ -1,0 +1,121 @@
+@media screen and (max-width: 1200px) {
+  .navigation {
+    flex-direction: column;
+    margin-bottom: 23px;
+  }
+  .nav-left {
+    flex-direction: column;
+    margin-bottom: 23px;
+    text-align: center;
+  }
+  .form-box input,textarea{
+    width: 80vw;
+  }
+  .content-right {
+    display: none;
+  }
+  .home-article {
+    flex-direction: column;
+  }
+  .home-article-img{
+    text-align: center;
+  }
+  .year-box h3{
+    font-size: 0.75rem;
+  }
+  .year-box {
+    right: 3vw;
+    flex-direction: column;
+  }
+  .y-box{
+    padding-bottom: 5px;
+  }
+  .home-article-content
+  {
+    text-align: center;
+  }
+  .row{
+    flex-direction: column;
+  }
+  .social
+  {
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 556px) {
+    .year-box {
+      flex-direction: row;
+      right: 16vw;
+    }
+    #year-head{
+      font-size: 0.75rem;
+      padding-top: 0;
+    }
+    .y-box h6{
+        font-size: 0.5rem;
+        padding-top: 2px;
+      }
+      .y-box
+      {
+        padding: 0 3px;
+      }
+
+  }
+  @media screen and (max-width: 493px) {
+    .year-box {
+      flex-direction: row;
+      right: 15vw;
+    }
+    .home-article img
+    {
+        width: 40vw;
+    }
+    .home-articles
+    {
+        width: 70vw;
+    }
+    .home-article-content
+    {
+        font-size: 0.75rem;
+        text-align: justify;
+    }
+    .btn
+    {
+        width: 14vw;
+        padding-left: 5%;
+        font-size: 0.65rem;
+    }
+    .nav-left img
+    {
+        width: 4rem;
+    }
+    .nav-left ul
+    {
+        font-size: 0.75rem;
+    }
+    #searchin
+    {
+        width: 25vw;
+        font-size: 0.65rem;
+    }
+  }
+
+  @media screen and (max-width: 435px) {
+    .home-articles h2
+    {
+        text-align: center;
+    }
+    .year-box {
+      position: relative;
+      left: 20%;
+    }
+    
+  }
+
+  @media screen and (max-width: 280px) {
+    .btn
+    {
+        padding-left: 2px;
+    }
+  }
+
